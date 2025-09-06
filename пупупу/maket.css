@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+ul,li,ol {
+    list-style: none;
+}
+
+.container {
+    margin-left: 20vw;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-right: 20vw;
+}
+
+.ulflex {
+    display: flex;
+    gap: 2vw;    
+}
+
+.content {
+    margin-top: 7rem;
+    width: 55%;
+}
+
+.red-button {
+    border: 0;
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: x-large;
+    background-color: #F50E30;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
